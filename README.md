@@ -23,12 +23,22 @@ Things you may want to cover:
 
 * Database creation
 
-    *generate the model
+    * generate the model
     
         rails g model Student title:string body:text
 
         rails db:migrate
+
 * Database initialization
+
+* Controllers
+
+    To create StudentController and it's index action then we run controller generator
+
+    rails generate controller student index 
+
+    Note: You can name the name[student] the way you want.
+
 
 * How to run the test suite
 
