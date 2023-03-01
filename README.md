@@ -22,7 +22,9 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
-    **generate the model
+
+    *generate the model
+    
         rails g model Student title:string body:text
 
         rails db:migrate
