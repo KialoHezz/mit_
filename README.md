@@ -5,17 +5,21 @@ application up and running.
 
 Things you may want to cover:
 *Start an Application
-    rails new name-of-the-application
-    cd new name-of-the-application
+
+    $ rails new name-of-the-application
+    $ cd new name-of-the-application
+
 * start the serve
-    rails s
+
+    $ rails s
 
 
 
 * Ruby version
-    ruby -v
-    rails -v
-    sqlite -v
+
+    $ ruby -v
+    $ rails -v
+    $ sqlite -v
 
 * System dependencies
 
@@ -25,9 +29,11 @@ Things you may want to cover:
 
     * generate the model
     
-        rails g model Student title:string body:text
+        $ rails g model Student title:string body:text
 
-        rails db:migrate
+        $ rails db:migrate
+
+        & rails g migration AddStudentRefToCourse student:references
 
 * Database initialization
 
@@ -35,9 +41,9 @@ Things you may want to cover:
 
     To create StudentController and it's index action then we run controller generator
 
-    rails generate controller student index 
+    $ rails generate controller student index 
 
-    Note: You can name the name[student] the way you want.
+    * Note: You can name the name[student] the way you want.
 
 
 * How to run the test suite
